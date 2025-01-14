@@ -1,21 +1,21 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Renison',
+    lastName:  'Gohel',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Cyber security enthusiast, Dev',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Asia/Kolkata',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Hindi', 'Gujarati']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
     display: true,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    description: <>I occasionally write about Cybersecurity, technology, and share thoughts on the intersection of latest trends and technology in development and engineering.</>
 }
 
 const social = [
@@ -24,12 +24,12 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/Renison-Gohel',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/renison-gohel-reni-christian-a589531b0/',
     },
     {
         name: 'X',
@@ -39,7 +39,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:renisonreni@gmail.com',
     },
 ]
 
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Cybersecurity enthusiast & Developer</>,
+    subline: <>I'm Renison, a student at <InlineCode>NFSU</InlineCode>, where I craft my cyber<br/> skills. I'm passionate about <InlineCode>CYBERSECURITY</InlineCode> and <InlineCode>TOOLS DEVELOPMENT</InlineCode>.</>
 }
 
 const about = {
@@ -69,38 +69,75 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Renison Gohel is the National Forensic Sciences University student, specializing in Digital Forensics and Information Security. With a passion for leveraging technology to tackle real-world challenges, he focuses on building innovative tools to assist law enforcement agencies in tasks such as investigations, OSINT, and custom solution development. Combining a strong foundation in technical skills with hands-on experience in the latest technologies, he thrives on transforming ideas into practical solutions that empower agencies and contribute to maintaining law and order.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
+                company: 'OPPO x ColorOS',
                 timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                role: 'Senior Alpha Tester',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Find Bugs and Problems in the private program of the unreleased devices and ColorOS Custom Rom of OPPO and then base of OnePlus & Realme.</>,
+                    <>Reported Valid Bugs and Problems in Devices & on the ColorOS to the development team</>,
+                    <>Awarded for my exceptional contributions during the ColorOS Beta Trial, where I played a critical role in identifying key issues and providing feedback to enhance the OS’s performance. Through detailed bug reporting and insightful suggestions, I worked closely with the development team to shape a more seamless and user-friendly experience for ColorOS users.</>,
+                    <>Recognized as a Key Contributor in the development of ColorOS 11 for my role in reporting critical bugs and proposing feature enhancements. By identifying over many bugs and providing actionable suggestions, I helped the engineering team refine the user experience and drive innovation in the OS. Proud to have contributed to the evolution of one of the most widely used Android Custom Rom.</>,
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
+                        src: '/images/projects/project-02/cover-01.jpg',
+                        alt: 'Outstanding Contribution Award',
                         width: 16,
-                        height: 9
-                    }
+                        height: 18
+                    },
+                    {
+                        src: '/images/projects/project-02/cover-02.jpg',
+                        alt: 'ColorOS 11 Special Momento',
+                        width: 16,
+                        height: 18
+                    },
+                    // {
+                    //     src: '/images/projects/project-02/cover-06.jpg',
+                    //     alt: 'Certificate of Senior Alpha Tester',
+                    //     width: 16,
+                    //     height: 18
+                    // }
                 ]
-            },
-            {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+            },{
+                company: 'Optimus WebTech',
+                timeframe: '2023 - 2024',
+                role: 'Answer Team Member',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Developed and Maintain Web Applications on the Teach Stack of React.js, Next.js, Laravel. Implemented Databases such as: MongoDB, Supabase, MySQL</>,
+                    <>Gather various large open data by Data mining using Python language: Scrapy, Selenium, Playwright.</>
                 ],
                 images: [ ]
+            },
+            {
+                company: 'ColorOS',
+                timeframe: '2018 - 2021',
+                role: 'Answer Team Member',
+                achievements: [
+                    <>Led a Alpha & Beta team to find and report bugs and forward valid bugs to the OS Engineering Team</>,
+                    <>Honored to be part of the ColorOS Creators Planet Answer Team, where my role was in shaping the evolution of ColorOS 7. From providing critical insights to ensuring testers' valid bugs were escalated to the engineering team, my contributions helped enhance the OPPO x ColorOS's performance and user experience. Proud to have been a driving force behind ColorOS’s continued success in winning users' hearts.</>,
+                    <>Recognized as the Top Performer for my role as an OPPO Community Moderator, where I successfully guided and managed a diverse group of tech bloggers, creators, and content experts. By fostering collaboration, providing strategic insights, and ensuring high-quality content, I helped build a thriving and engaged community that contributed to the growth of OPPO’s online presence.</>
+                ],
+                images: [
+                    {
+                        src: '/images/projects/project-02/cover-04.jpg',
+                        alt: 'ColorOS 7 Answer Team Special Momento',
+                        width: 16,
+                        height: 22
+                    },
+                    {
+                        src: '/images/projects/project-02/cover-05.jpg',
+                        alt: 'Certificate of Answer Team',
+                        width: 16,
+                        height: 22
+                    }
+                 ]
             }
         ]
     },
@@ -109,13 +146,13 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'National Forensic Sciences University',
+                description: <>Pursuing a Master degree in Digital Forensic & Information Security.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
-            }
+                name: 'Saurashtra University',
+                description: <>Studied Bachlor's of Computer Applications.</>,
+            },
         ]
     },
     technical: {
@@ -123,8 +160,27 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'Cybersecurity',
+                description: <>Offensive mindset to Defense the Information Systems. Building Tools that Helps Law Enforcement Agencies.</>,
+                // optional: leave the array empty if you don't want to display images
+                images: [
+                    {
+                        src: '/images/projects/project-02/cover-07.jpg',
+                        alt: 'OSINT Tool for Law Enforcement Agencies',
+                        width: 16,
+                        height: 9
+                    },
+                    {
+                        src: '/images/projects/project-02/cover-08.jpg',
+                        alt: 'PII Data',
+                        width: 16,
+                        height: 9
+                    },
+                ]
+            },
+            {
+                title: 'Next.js',
+                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
@@ -134,7 +190,7 @@ const about = {
                         height: 9
                     },
                     {
-                        src: '/images/projects/project-01/cover-03.jpg',
+                        src: '/images/projects/project-02/cover-07.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -142,8 +198,8 @@ const about = {
                 ]
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                title: 'React.js',
+                description: <>Building next gen web apps with React + TailwindCSS + Framer Motion.</>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
