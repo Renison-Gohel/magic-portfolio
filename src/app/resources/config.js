@@ -68,7 +68,7 @@ const display = {
 }
 
 const mailchimp = {
-    action: 'https://url/subscribe/post?parameters',
+    action: 'wa.me/8866187337',
     effects: {
         mask: {
             cursor: false,
